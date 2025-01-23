@@ -283,7 +283,7 @@ if __name__ == '__main__':
 
     writer.close()
     #
-    file_name = '../save/data/fedSysHe3_alpha1.0_c4_{}_{}3_epo[{}]_C[{}]_iid[{}]_E[{}]_fastorslow[{}].pkl'. \
+    file_name = '../save/data/TwinGearFL_alpha1.0_c4_{}_{}3_epo[{}]_C[{}]_iid[{}]_E[{}]_fastorslow[{}].pkl'. \
         format(args.dataset, args.model, args.epochs, args.frac, args.iid,
                args.local_ep, args.fastOrslow_frac)
     with open(file_name, 'wb') as f:
